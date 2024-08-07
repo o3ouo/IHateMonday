@@ -1,0 +1,511 @@
+@import url("./reset.css"); /* 리셋 css는 최상단에 연결한다 */
+
+@font-face {
+    font-family: 'Aventa-Black';
+    font-weight: 900;
+    src: url(../font/aventa/Aventa-Black.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Aventa-SemiBold';
+    font-weight: 600;
+    src: url(../font/aventa/Aventa-SemiBold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Aventa-Medium';
+    font-weight: 500;
+    src: url(../font/aventa/Aventa-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Aventa-Medium';
+    letter-spacing: -0.03em;
+    color: #111111;
+}
+
+/* main */
+#main{
+    margin-bottom: 300px;
+}
+/* /main */
+
+
+/* header */
+header{
+    width: calc(100% - 200px);
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+header h1{
+    margin: auto;
+}
+
+.t_h{
+    display: block;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* /header */
+
+
+/* main_text */
+#section1{
+    width: 997px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 300px;
+}
+
+#section1 .title .p1{
+    font-family: 'Aventa-SemiBold';
+    font-size: 4rem;
+    color: #999999;
+    margin-bottom: 10px;
+}
+
+#section1 .title .p2{
+    font-family: 'Aventa-SemiBold';
+    font-size: 8rem;
+    color: #f2c44b;
+}
+
+#section1 .t{
+    font-family: 'Pretendard-Regular';
+    font-size: 1.8rem;
+    line-height: 180%;
+}
+/* /main_text */
+
+
+/* banner & best item */
+#section2{
+    position: relative;
+    margin-bottom: 300px;
+}
+
+#section2 .bg{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    top: 150px;
+    left: 0;
+    background: #f2c44b;
+}
+
+#section2 .container{
+    position: relative;
+}
+
+#section2 .banner{
+    margin: 0 70px;
+    position: relative;
+    margin-bottom: 50px;
+}
+#section2 .banner .text{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#section2 .banner .text p{
+    font-family: 'Pretendard-Regular';
+    font-size: 1.8rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+#section2 .banner .text button{
+    width: 200px;
+    height: 40px;
+    font-family: 'Aventa-SemiBold';
+    font-size: 1.8rem;
+    color: #ffffff;
+    background: transparent;
+    border: 2px solid #ffffff;
+}
+
+#section2 .best p{
+    font-family: 'Aventa-SemiBold';
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+#section2 .best .image{
+    display: flex;
+}
+#section2 .best .image .item{
+    transition: 0.4s ease-in-out;
+}
+#section2 .best .image .item:hover{
+    transform: translateY(30px);
+    cursor: pointer;
+}
+/* /banner & best item */
+
+
+/* norton */
+#section3{
+    width: calc(100% - 200px);
+    height: 2650px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 300px;
+}
+
+#section3 .n2{
+    position: absolute;
+    top: 851px;
+    right: 0;
+}
+#section3 .n3{
+    position: absolute;
+    top: 1377px;
+    right: 50%;
+}
+
+#section3 h2{
+    position: absolute;
+    top: 211px;
+    right: 0;
+    font-family: 'Aventa-Black';
+    font-size: 20rem;
+    line-height: 100%;
+    color: #f2c44b;
+}
+
+#section3 .text{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#section3 .text h3{
+    font-family: 'Aventa-SemiBold';
+    font-size: 15rem;
+    margin-bottom: 20px;
+}
+#section3 .text p{
+    font-family: 'Pretendard-Regular';
+    font-size: 2rem;
+    line-height: 180%;
+    color: #555555;
+    margin-bottom: 50px;
+}
+#section3 .text button{
+    width: 350px;
+    height: 100px;
+    font-size: 4rem;
+    background: transparent;
+    color: #111111;
+    border: 3px solid #111111;
+}
+/* /norton */
+
+
+/* cocoran */
+#section4{
+    width: 100%;
+    height: 3766px;
+    background: #f2c44b;
+    margin-bottom: 300px;
+}
+#section4 .cocoran{
+    width: calc(100% - 200px);
+    height: 100%;
+    position: relative;
+    margin: auto;
+}
+
+#section4 .c1{
+    position: absolute;
+    top: 350px;
+    left: 390px;
+}
+#section4 .c2{
+    position: absolute;
+    top: 540px;
+    left: 0;
+}
+#section4 .c3{
+    position: absolute;
+    top: 1199px;
+    right: 0;
+}
+#section4 .c4{
+    position: absolute;
+    top: 1949px;
+    right: 500px;
+}
+
+#section4 h2{
+    position: absolute;
+    top: 70px;
+    font-family: 'Aventa-Black';
+    font-size: 20rem;
+    line-height: 100%;
+    color: #ffffff;
+}
+
+#section4 .text{
+    position: absolute;
+    bottom: 100px;
+    left: 195px;
+}
+#section4 .text h3{
+    font-family: 'Aventa-SemiBold';
+    font-size: 15rem;
+    margin-bottom: 20px;
+}
+#section4 .text p{
+    font-family: 'Pretendard-Regular';
+    font-size: 2rem;
+    line-height: 180%;
+    color: #555555;
+    margin-bottom: 50px;
+}
+#section4 .text button{
+    width: 350px;
+    height: 100px;
+    font-size: 4rem;
+    background: transparent;
+    color: #111111;
+    border: 3px solid #111111;
+}
+/* /cocoran */
+
+
+/* collabo */
+#section5{
+    text-align: center;
+    margin-bottom: 300px;
+}
+
+#section5 h2{
+    font-family: 'Aventa-Black';
+    font-size: 10rem;
+    margin-bottom: 50px;
+}
+
+#section5 .cbox .img{
+    margin-bottom: 100px;
+}
+
+#section5 .cbox .txt{
+    font-family: 'Pretendard-Regular';
+    font-size: 1.8rem;
+    line-height: 200%;
+    color: #555555;
+    margin-bottom: 100px;
+}
+
+#section5 .box1 .p1{
+    padding: 0;
+}
+
+#section5 .box2{
+    align-items: center;
+}
+#section5 .box2 .p2{
+    padding: 0;
+}
+#section5 .cbox .box2 p{
+    font-family: 'Pretendard-Regular';
+    font-size: 1.8rem;
+    line-height: 200%;
+    color: #555555;
+}
+
+#section5 .box3{
+    margin-bottom: 100px;
+}
+#section5 .box3 .p3{
+    padding: 0;
+}
+
+#section5 button{
+    width: 350px;
+    height: 100px;
+    background: transparent;
+    border: 3px solid #f2c44b;
+    font-size: 4rem;
+}
+#section5 button a{
+    color: #f2c44b;
+}
+/* /collabo */
+
+
+/* lookbook */
+#section6{
+    width: calc(100% - 200px);
+    height: 2909px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 300px;
+}
+
+#section6 .bg{
+    position: absolute;
+    top: 0;
+    left: 290px;
+    width: 1140px;
+    height: 100%;
+    background: #f2c44b;
+}
+
+#section6 h2{
+    position: absolute;
+    top: 100px;
+    font-family: 'Aventa-Black';
+    font-size: 10rem;
+    color: #ffffff;
+}
+
+#section6 h3{
+    position: absolute;
+    top: 330px;
+    left: 910px;
+    font-family: 'Aventa-SemiBold';
+    font-size: 5rem;
+    line-height: 150%;
+    color: #ffffff;
+    text-align: start;
+}
+
+#section6 .l1{
+    position: absolute;
+    top: 300px;
+    left: 20px;
+}
+#section6 .l2{
+    position: absolute;
+    top: 615px;
+    left: 910px;
+}
+
+#section6 .box1{
+    position: absolute;
+    top: 1390px;
+    left: 50px;
+    display: flex;
+    gap: 100px;
+}
+
+#section6 .l7{
+    position: absolute;
+    top: 1820px;
+    left: 310px;
+}
+#section6 .l8{
+    position: absolute;
+    top: 1920px;
+    left: 1040px;
+}
+
+#section6 button{
+    position: absolute;
+    bottom: 100px;
+    left: 685px;
+    width: 350px;
+    height: 100px;
+    background: transparent;
+    border: 3px solid #ffffff;
+    font-size: 4rem;
+}
+#section6 button a{
+    color: #ffffff;
+}
+/* /lookbook */
+
+
+/* footer */
+footer{
+    width: 100%;
+    height: 729px;
+    background: #111111;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+footer h5{
+    font-family: 'Aventa-SemiBold';
+    font-size: 1.8rem;
+    line-height: 180%;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+footer .fbox1 .box1 p{
+    font-size: 1.4rem;
+    line-height: 180%;
+    margin-bottom: 20px;
+}
+
+footer .fbox1 .box2 .b1{
+    margin-bottom: 100px;
+}
+footer .fbox1 .box2 p{
+    font-size: 1.4rem;
+    line-height: 180%;
+}
+
+footer .fbox1 .box3 a{
+    display: flex;
+    gap: 10px;
+    font-family: 'Aventa-SemiBold';
+    font-size: 1.8rem;
+    line-height: 180%;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    max-width: 160px;
+}
+
+footer .fbox2{
+    display: flex;
+    gap: 15px;
+    margin: 50px 0;
+}
+footer .fbox2 a{
+    border-right: 1px solid #555555;
+    padding-right: 10px;
+    font-size: 1.4rem;
+    color: #555555;
+}
+footer .fbox2 a:last-child{
+    border-right: none;
+}
+
+footer .sns{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+footer .copy{
+    font-size: 1.4rem;
+    color: #555555;
+}
+/* /footer */

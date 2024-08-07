@@ -1,0 +1,406 @@
+@import url("./reset.css");
+/* 리셋 css는 최상단에 연결한다 */
+
+@font-face {
+    font-family: 'Aventa-Black';
+    font-weight: 900;
+    src: url(../font/aventa/Aventa-Black.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Aventa-SemiBold';
+    font-weight: 600;
+    src: url(../font/aventa/Aventa-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Aventa-Medium';
+    font-weight: 500;
+    src: url(../font/aventa/Aventa-Medium.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Pretendard-Regular';
+    letter-spacing: -0.03em;
+    color: #111111;
+}
+
+/* header */
+header {
+    width: calc(100% - 200px);
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.t_h {
+    display: block;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+header .header_menu .menu a {
+    font-size: 1.4rem;
+    color: #555555;
+    margin-left: 15px;
+}
+
+header .header_menu .menu a:first-child {
+    margin-left: 0;
+}
+
+header .header_menu .search {
+    border: 1px solid #999999;
+    margin-top: 10px;
+    padding: 5px 5px 5px 10px;
+}
+
+header .header_menu .search a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    line-height: 180%;
+    color: #999999;
+}
+
+/* /header */
+
+/* categore */
+nav {
+    width: calc(100% - 200px);
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li a {
+    font-size: 1.8rem;
+    color: #111111;
+}
+
+/* /categore */
+
+
+/* title */
+.title {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.title .p1 {
+    font-family: 'Aventa-Black';
+    font-size: 10rem;
+    margin-bottom: 50px;
+}
+
+.title .p2 {
+    font-family: 'Aventa-SemiBold';
+    font-size: 2rem;
+    color: #999999;
+}
+
+/* /title */
+
+
+/* collabo_box */
+.collabo_box {
+    margin-bottom: 100px;
+}
+
+.collabo_box .box1 {
+    align-items: center;
+}
+
+.collabo_box .box1 .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.collabo_box .box2 {
+    align-items: center;
+}
+
+.collabo_box .box2 .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.collabo_box .box3 {
+    align-items: center;
+}
+
+.collabo_box .box3 .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.collabo_box .box4 {
+    align-items: center;
+}
+
+.collabo_box .box4 .right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.collabo_box .box5 {
+    align-items: center;
+}
+
+.collabo_box .box5 .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.collabo_box .box6 {
+    align-items: center;
+}
+
+.collabo_box .box6 .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+/* /collabo_box */
+
+
+/* paging */
+.paging {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 250px;
+}
+
+.paging .p1 {
+    font-family: 'Aventa-Black';
+    font-size: 2.4rem;
+    color: #f2c44b;
+}
+
+.paging .p3,
+.paging .p2 {
+    font-family: 'Aventa-Medium';
+    font-size: 2rem;
+    color: #999999;
+}
+
+/* /paging */
+
+
+
+
+/* footer */
+footer {
+    width: 100%;
+    height: 729px;
+    background: #111111;
+    color: #ffffff;
+    padding: 100px 0;
+}
+
+footer h5 {
+    font-family: 'Aventa-SemiBold';
+    font-size: 1.8rem;
+    line-height: 180%;
+    border-bottom: 1px solid #ffffff;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+footer .fbox1 .box1 p {
+    font-size: 1.4rem;
+    line-height: 180%;
+    margin-bottom: 20px;
+}
+
+footer .fbox1 .box2 .b1 {
+    margin-bottom: 100px;
+}
+
+footer .fbox1 .box2 p {
+    font-size: 1.4rem;
+    line-height: 180%;
+}
+
+footer .fbox1 .box3 a {
+    display: flex;
+    gap: 10px;
+    font-family: 'Aventa-SemiBold';
+    font-size: 1.8rem;
+    line-height: 180%;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    max-width: 160px;
+}
+
+footer .fbox2 {
+    display: flex;
+    gap: 15px;
+    margin: 50px 0;
+}
+
+footer .fbox2 a {
+    border-right: 1px solid #555555;
+    padding-right: 10px;
+    font-size: 1.4rem;
+    color: #555555;
+}
+
+footer .fbox2 a:last-child {
+    border-right: none;
+}
+
+footer .sns {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+}
+
+footer .copy {
+    font-size: 1.4rem;
+    color: #555555;
+}
+
+/* /footer */
+
+
+/* 카테고리 효과 */
+nav .box a {
+    padding: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    -webkit-transition: 0.3s ease-out;
+    -moz-transition: 0.3s ease-out;
+    transition: 0.3s ease-out;
+}
+
+nav .box a span:before {
+    width: 5px;
+    height: 5px;
+    background: transparent;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    border-top: 2px solid #f2c44b;
+    border-left: 2px solid #f2c44b;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+nav .box a span:after {
+    width: 6px;
+    height: 6px;
+    background: transparent;
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-right: 2px solid #f2c44b;
+    border-bottom: 2px solid #f2c44b;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+nav .box a:before {
+    width: 6px;
+    height: 6px;
+    background: transparent;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-right: 2px solid #f2c44b;
+    border-top: 2px solid #f2c44b;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+nav .box a:after {
+    width: 6px;
+    height: 6px;
+    background: transparent;
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-left: 2px solid #f2c44b;
+    border-bottom: 2px solid #f2c44b;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    transition: 0.3s;
+    opacity: 0;
+}
+
+nav .box a:hover {
+    color: #f2c44b;
+}
+
+nav .box a:hover:before {
+    opacity: 1;
+    right: 5px;
+    top: 5px;
+}
+
+nav .box a:hover:after {
+    opacity: 1;
+    left: 5px;
+    bottom: 5px;
+}
+
+nav .box a:hover span:before {
+    opacity: 1;
+    left: 5px;
+    top: 5px;
+}
+
+nav .box a:hover span:after {
+    opacity: 1;
+    right: 5px;
+    bottom: 5px;
+}
