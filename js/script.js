@@ -9,6 +9,8 @@ $(document).ready(function () {
         adaptiveHeight: true,
         autoplay: true,
         autoplaySpeed: 2000,
+        prevArrow: false,
+        nextArrow: false
     });
 
     /* 배너 버튼 */
